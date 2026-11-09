@@ -18,7 +18,7 @@ C'est au lycée, entre les **mathématiques** et la **NSI**, que j'ai écrit mes
 
 En 2026, je me tourne vers l'**intelligence artificielle** : reconnaissance de la langue des signes, prédiction de résultats scolaires, puis **CertiDoc AI**, une base documentaire de certification d'hélicoptères qu'on interroge en langage naturel. Mon fil conducteur ne change pas : **partir de données brutes pour en faire un outil utile et fiable.**
 
-**Prochaine étape :** un **stage de 3 à 6 mois dès février 2027** pour valider ma licence, puis une **alternance en Data / IA / Développement** pendant mon master.
+**Prochaine étape :** un **stage de 3 à 6 mois dès février ou avril 2027** pour valider ma licence, puis une **alternance en Data / IA / Développement** pendant mon master.
 
 ---
 
