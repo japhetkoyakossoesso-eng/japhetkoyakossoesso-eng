@@ -1,216 +1,176 @@
 <div align="center">
-  <img src="./banner.svg" alt="Japhet KOYAKOSSO-ESSO" width="100%"/>
+  <img src="./banner.svg" alt="Japhet KOYAKOSSO-ESSO — L3 MIASHS Informatique, Data, IA et développement" width="100%"/>
 </div>
 
+<div align="center">
 
-## 🧑‍💻 À propos de moi
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Japhet_KOYAKOSSO--ESSO-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/japhet-koyakosso-esso-974a33313)
+[![Gmail](https://img.shields.io/badge/Gmail-japhetkoyakossoesso%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:japhetkoyakossoesso@gmail.com)
+[![Projet phare](https://img.shields.io/badge/Projet_phare-CertiDoc_AI-ffd700?style=flat&logo=github&logoColor=black)](https://github.com/japhetkoyakossoesso-eng/certidocAI)
 
-- 🎓 Étudiant en **L3 MIASHS** (Mathématiques Informatiques Appliquées aux Sciences Humaines et Sociales) · UT2J Toulouse
-- 🔍 En recherche d'une **alternance Développement / Data Engineering** (2026–2027)
-- 🇨🇫 Originaire de la **République Centrafricaine**
-- 💼 Stagiaire développeur web chez **Web-atrio** (HTML/CSS/JS · SQL · MySQL)
-- 🎯 Objectif long terme : **Master Machine Learning / IA / Data Science**, puis carrière en ML appliqué
-- 📜 Certifié **Développeur Python — Formation Complète 2026** (Udemy · 69,5h)
-- 📊 En formation **Power BI** (Power Query · DAX · Power BI Service · préparation PL-300)
+</div>
 
+## 🧭 Mon parcours
 
-## 🛠️ Langages & Technologies
+C'est au lycée, entre les **mathématiques** et la **NSI**, que j'ai écrit mes premières lignes de code. J'ai ensuite choisi la **licence MIASHS** à Toulouse pour réunir ce qui m'attire : l'informatique, les mathématiques et l'humain derrière les données.
 
-**Langages de programmation**
+À l'université, j'apprends à **construire** : des bases de données, des applications web, des outils qui remplacent des tâches répétitives. Fin 2025, je fais mes premiers pas en entreprise chez **Web-atrio** : du code en production, des revues de code avec un développeur senior, de vraies contraintes.
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
-[![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)](https://java.com)
-[![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)](https://r-project.org)
-[![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=sqlite&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org)
-[![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://php.net)
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)](https://go.dev)
-[![Shell](https://img.shields.io/badge/Shell-121011?style=flat&logo=gnu-bash&logoColor=white)](#)
+En 2026, je me tourne vers l'**intelligence artificielle** : reconnaissance de la langue des signes, prédiction de résultats scolaires, puis **CertiDoc AI**, une base documentaire de certification d'hélicoptères qu'on interroge en langage naturel. Mon fil conducteur ne change pas : **partir de données brutes pour en faire un outil utile et fiable.**
 
-**Frameworks & Librairies**
+**Prochaine étape :** un **stage de 3 à 6 mois dès février 2027** pour valider ma licence, puis une **alternance en Data / IA / Développement** pendant mon master.
 
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://tensorflow.org)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)](https://matplotlib.org)
-[![MediaPipe](https://img.shields.io/badge/MediaPipe-00897B?style=flat&logo=google&logoColor=white)](https://mediapipe.dev)
-[![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chartdotjs&logoColor=white)](https://chartjs.org)
-[![openpyxl](https://img.shields.io/badge/openpyxl-217346?style=flat&logo=microsoftexcel&logoColor=white)](https://openpyxl.readthedocs.io)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
-[![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)](https://djangoproject.com)
-[![Kivy](https://img.shields.io/badge/Kivy-000000?style=flat&logo=python&logoColor=white)](https://kivy.org)
+---
+
+## ⭐ Projet phare : [CertiDoc AI](https://github.com/japhetkoyakossoesso-eng/certidocAI)
+
+> **Base documentaire de certification d'hélicoptères, interrogeable par IA.**
+> Mapping de **39 consignes de navigabilité** publiques vers une base SQL, recherche sémantique (**RAG**), réponses et **synthèses par appareil et par pièce** avec citation systématique des sources, schéma interactif de l'appareil, interface **bilingue FR / EN**, modèle de langage **100 % local**.
+
+<div align="center">
+  <a href="https://github.com/japhetkoyakossoesso-eng/certidocAI">
+    <img src="https://raw.githubusercontent.com/japhetkoyakossoesso-eng/certidocAI/main/docs/schema.png" alt="CertiDoc AI : vue appareil" width="85%"/>
+  </a>
+</div>
+
+**Stack :** Python · SQLite · LangChain · Chroma · Hugging Face (embeddings multilingues) · Ollama (Llama 3.1) · Flask · HTML / CSS / JavaScript
+
+---
+
+## 🛠️ Compétences
+
+**Langages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=sqlite&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-121011?style=flat&logo=gnu-bash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Prolog](https://img.shields.io/badge/Prolog-E61B23?style=flat)
+
+**Data, machine learning & IA**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-00897B?style=flat&logo=google&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Chroma-FF6B35?style=flat)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
+![LLM APIs](https://img.shields.io/badge/LLM-OpenAI_·_Mistral_·_Anthropic-412991?style=flat)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+
+**Web & applications**
+
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chartdotjs&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-API-005571?style=flat)
+![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=flat&logo=python&logoColor=white)
+![Kivy](https://img.shields.io/badge/Kivy-000000?style=flat&logo=python&logoColor=white)
+![openpyxl](https://img.shields.io/badge/openpyxl-217346?style=flat&logo=microsoftexcel&logoColor=white)
 
 **Bases de données**
 
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://sqlite.org)
-[![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)](https://mariadb.org)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://mysql.com)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
-**Outils, Environnements & BI**
+**Conception & méthodes**
 
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)](https://gitlab.com)
-[![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=flat&logo=rstudio&logoColor=white)](https://posit.co)
-[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
-[![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)](https://microsoft.com/excel)
-[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](#)
+![UML](https://img.shields.io/badge/UML-conception_objet-6D4C9F?style=flat)
+![POO](https://img.shields.io/badge/POO-Java_·_Python-007396?style=flat)
+![Gestion de projet](https://img.shields.io/badge/Gestion_de_projet-Gantt_·_cahier_des_charges-0A66C2?style=flat)
+
+**DevOps, outils & environnements**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-pipelines-2088FF?style=flat)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![PythonAnywhere](https://img.shields.io/badge/PythonAnywhere-1D9FD7?style=flat&logo=python&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=flat&logo=rstudio&logoColor=white)
+
+**Développement assisté par IA**
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=claude&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=githubcopilot&logoColor=white)
+![Windsurf](https://img.shields.io/badge/Windsurf-0B100F?style=flat)
 
 ---
 
 ## 🚀 Projets
 
-### 🤟 [Signum HandSpeak](https://github.com/japhetkoyakossoesso-eng/Projet_Signum_HandSpeak_) *(2026)*
-> Traduction de la langue des signes française (LSF) en temps réel via vision par ordinateur.
-> 5 200 échantillons · Random Forest 100% de précision · LSTM pour gestes dynamiques · interface Tkinter · synthèse vocale · export PDF.
->
-> **Stack :** Python · OpenCV · MediaPipe · scikit-learn · TensorFlow / LSTM · Tkinter  
-> *Projet personnel · (infrastructure/sécurité)*
+### 🤖 Intelligence artificielle & data
+
+| Projet | Description | Stack |
+|---|---|---|
+| ⭐ [**CertiDoc AI**](https://github.com/japhetkoyakossoesso-eng/certidocAI) *(2026)* | Base documentaire de certification d'hélicoptères interrogeable par IA : mapping SQL, RAG, synthèses par appareil et par pièce, sources citées, interface bilingue | Python · SQLite · LangChain · Chroma · Ollama · Flask |
+| **AI Career Coach** *(2026 – 2027)* | Projet tutoré de L3 en équipe : application d'accompagnement à la recherche d'emploi par IA générative (analyse de CV et d'offres), sécurité des données, pseudonymisation, tests automatisés | Python · LLM · Docker · Git |
+| 🤟 [**Signum HandSpeak**](https://github.com/japhetkoyakossoesso-eng/Projet_Signum_HandSpeak_) *(2026)* | Traduction de la langue des signes française en temps réel : 5 200 échantillons, Random Forest à 100 % de précision, LSTM pour les gestes dynamiques, synthèse vocale, export PDF | Python · OpenCV · MediaPipe · scikit-learn · TensorFlow |
+| 📊 [**Student Grade Prediction**](https://github.com/japhetkoyakossoesso-eng/projet_prediction_notes_avec_machine_learning) *(2026)* | Pipeline ML complet : dataset synthétique, EDA (8 visualisations), Random Forest et régression logistique, interprétabilité, rapport RMarkdown | Python · scikit-learn · Pandas · R |
+| 🌿 [**Qualité de l'air en Occitanie**](https://github.com/japhetkoyakossoesso-eng/Projet_Qualit-_de_l_Air_En_Occitanie) *(2025 – 2026)* | Pipeline ETL, base normalisée (5 tables liées par code INSEE), 15 requêtes SQL sur 5 problématiques, rapport RMarkdown · **noté 18,83/20** | Python · SQLite · PostgreSQL · SQL · R |
+| 🧠 [**Initiation à l'IA**](https://github.com/japhetkoyakossoesso-eng/Initiation_A_Lapprentissage_automatique) *(2025 – 2026)* | Analyse comparative de LLM (ChatGPT, DeepSeek, Mistral), base de connaissances en Prolog, benchmark de modèles (impact énergétique, modèles frugaux) | Prolog · Python · IA générative |
+
+### 🌐 Web
+
+| Projet | Description | Stack |
+|---|---|---|
+| 🧠 [**Quiz John von Neumann**](https://github.com/japhetkoyakossoesso-eng/ProjetWeb-quiz-sur-un-c-l-bre) · [démo](https://projetwebquizsuruncelebrate.vercel.app) *(2025 – 2026)* | Site responsive de 4 pages et quiz interactif de 10 questions (scoring, feedback, validation), validé W3C, testé sur 4 navigateurs, déployé sur Vercel | HTML5 · CSS3 · JavaScript ES6+ · Bootstrap 5.3 |
+| 🍕 [**Pizza Django**](https://github.com/japhetkoyakossoesso-eng/Pizza_Django) *(2026)* | Application web de gestion d'une pizzeria (architecture MVT), déployée sur PythonAnywhere | Python · Django · HTML · CSS |
+| 🎬 [**Du Python au PHP**](https://github.com/japhetkoyakossoesso-eng/Du_python_au_PHP) *(2026)* | Cinémathèque web : requêtes SQL avec jointures, filtres par genre, ajout et suppression de films | PHP · MariaDB · HTML · CSS |
+| 📈 [**Visualisation Chart.js**](https://github.com/japhetkoyakossoesso-eng/developpement_app_web_biblio_chart) *(2025 – 2026)* | Tableaux de bord des inscriptions étudiantes à partir de l'API OpenData du ministère de l'Enseignement supérieur | JavaScript · Chart.js · API REST |
+| 🚌 [**Tisséo API Web App**](https://github.com/japhetkoyakossoesso-eng/Projet_Qualit-_de_l_Air_En_Occitanie) *(2026)* | Application JavaScript / AJAX interrogeant l'API OpenData Tisséo (lignes et arrêts de Toulouse) | JavaScript · AJAX · Chart.js · API REST |
+| 🌱 [**Ma Semaine Verte**](https://github.com/japhetkoyakossoesso-eng/ma_semaine_verte) *(2026)* | Site sur le développement durable et les habitudes éco-responsables | HTML · CSS |
+| 🌐 [**Portfolio**](https://github.com/japhetkoyakossoesso-eng/Mon_porfolio) *(2026)* | Portfolio personnel (mise à jour en cours) | HTML · CSS |
+
+### 🖥️ Applications & automatisation
+
+| Projet | Description | Stack |
+|---|---|---|
+| 🧾 [**Excel Invoice Generator**](https://github.com/japhetkoyakossoesso-eng/Projet_factures_excel) *(2026)* | Automatisation de la facturation : scan de dossier, contrôle de la structure des fichiers Excel, agrégation par client, génération automatique des factures | Python · openpyxl |
+| 🍽️ [**Organisation de repas de groupe**](https://github.com/japhetkoyakossoesso-eng/Projet_ingSI_2) *(2025 – 2026)* | Application de saisie et de suivi des contributions d'un repas de promotion · licence Apache 2.0 | Python · Tkinter · UML |
+| 🏠 [**DomoHouse System**](https://github.com/japhetkoyakossoesso-eng/Projet_ingSI_2) *(2026)* | Interface domotique : gestion de maisons et de pièces, thème clair / sombre, traitement d'images | Python · Tkinter · Pillow |
+| 🌌 [**Projet Galaxy**](https://github.com/japhetkoyakossoesso-eng/Projet_galaxy) *(2026)* | Jeu arcade en pseudo-3D : perspective, difficulté progressive, power-ups, highscore persistant en JSON | Python · Kivy |
+| 🕹️ [**Kivy — Le Lab**](https://github.com/japhetkoyakossoesso-eng/projet_kivy_lelab) *(2026)* | Expérimentations d'interfaces graphiques mobiles / desktop | Python · Kivy |
+| 🔐 [**Projet Backdoor**](https://github.com/japhetkoyakossoesso-eng/projet_backdoor) *(2026)* | Projet **éducatif** de cybersécurité : communication client / serveur TCP, pour comprendre les mécanismes d'attaque et de défense | Python · sockets |
 
 ---
 
-### 🌌 [Projet Galaxy](https://github.com/japhetkoyakossoesso-eng/Projet_galaxy) *(2026)*
-> Jeu arcade Python/Kivy : endless runner pseudo-3D avec rendu en perspective, difficulté progressive, power-ups (pièces, boucliers, slow-motion), tuiles piégées, highscore persistant en JSON, effet de traînée du vaisseau.
->
-> **Stack :** Python · Kivy  
-> *Projet personnel*
-
----
-
-### 🕹️ [Projet Kivy — Le Lab](https://github.com/japhetkoyakossoesso-eng/projet_kivy_lelab) *(2026)*
-> Projet d'apprentissage et d'expérimentation du framework Kivy pour le développement d'interfaces graphiques mobiles/desktop en Python.
->
-> **Stack :** Python · Kivy (kvlang)
-
----
-
-### 🍕 [Pizza Django](https://github.com/japhetkoyakossoesso-eng/Pizza_Django) *(2026)*
-> Application web back-end simulant le système de gestion d'une pizzeria : catalogue de pizzas stocké en base de données, rendu accessible via une interface web Django (MVT).
->
-> **Stack :** Python · Django · HTML · CSS  
-> *Déployé sur PythonAnywhere*
-
----
-
-### 📊 [Student Grade Prediction](https://github.com/japhetkoyakossoesso-eng/projet_prediction_notes_avec_machine_learning) *(2026)*
-> Pipeline ML complet pour prédire la note finale d'un étudiant en fonction de son comportement et engagement académique. Génération de dataset synthétique (`note_finale`, `mention`), EDA (8 visualisations), modélisation (Random Forest, régression logistique), interprétabilité, rapport RMarkdown.
->
-> **Stack :** Python · scikit-learn · Pandas · Matplotlib · R · RMarkdown
-
----
-
-### 🌐 [Mon Portfolio](https://github.com/japhetkoyakossoesso-eng/Mon_porfolio) *(2026)*
-> Pas encore mise à jour, Portfolio personnel développé en HTML/CSS pour présenter mes projets et compétences.
->
-> **Stack :** HTML · CSS
-
----
-
-### 🔐 [Projet Backdoor](https://github.com/japhetkoyakossoesso-eng/projet_backdoor) *(2026)*
-> Projet éducatif de cybersécurité : implémentation d'un backdoor TCP socket en Python (shell distant, téléchargement de fichiers, capture d'écran) pour comprendre les mécanismes d'attaque et de défense.
->
-> **Stack :** Python  
-> *Projet éducatif uniquement*
-
----
-
-### 🌿 [Qualité de l'Air en Occitanie](https://github.com/japhetkoyakossoesso-eng/Projet_Qualit-_de_l_Air_En_Occitanie) *(2025–2026)*
-> Base de données SQLite normalisée (5 tables liées par code INSEE), pipeline ETL Python avec exports CSV, 15 requêtes SQL couvrant 5 problématiques. Rapport RMarkdown complet. **Note : 18,83/20.**
->
-> **Stack :** Python · SQLite · SQL · R · RStudio · RMarkdown  
-> *Projet académique · Groupe 8 · UT2J*
-
----
-
-### 🍽️ [Organisation de Repas de Groupe](https://github.com/japhetkoyakossoesso-eng/Projet_ingSI_2) *(2025–2026)*
-> Application pour organiser un repas de promotion : saisie des promesses d'apport (nom, prénom, catégorie, quantité), gestion des participants et répartition des contributions.
->
-> **Stack :** Python · Tkinter  
-> *Licence Apache 2.0*
-
----
-
-### 🧠 [Quiz — John von Neumann](https://github.com/japhetkoyakossoesso-eng/ProjetWeb-quiz-sur-un-c-l-bre) *(2025–2026)*
-> Application web complète et responsive dédiée à **John von Neumann**, père de l'architecture des ordinateurs modernes. Développée en solo en 3 étapes progressives (maquette → CSS → JavaScript dynamique).
->
-> - **4 pages** : accueil, biographie, œuvre, quiz interactif
-> - **Quiz 10 questions** : tableau d'objets JS, scoring automatique, 5 niveaux de feedback personnalisés, explications détaillées par question, validation des entrées, bouton recommencer
-> - **Design responsive** Bootstrap 5.3 (mobile · tablette · desktop), palette de couleurs de la carte "Machines & Composants" (`#281B1C`), animations CSS (`@keyframes`, transitions, scroll automatique)
-> - **Validé W3C** HTML5 & CSS3 · testé sur Chrome, Firefox, Edge, Safari · déployé sur le serveur de l'UT2J
->
-> **Stack :** HTML5 · CSS3 · JavaScript ES6+ · Bootstrap 5.3  
-> *Projet académique solo · UE Client Web · UT2J · Note obtenue en L2*
-
----
-
-### 🌱 [Ma Semaine Verte](https://github.com/japhetkoyakossoesso-eng/ma_semaine_verte) *(2026)*
-> Application web HTML/CSS sur la thématique du développement durable et des habitudes éco-responsables.
->
-> **Stack :** HTML · CSS
-
----
-
-### 📈 [Développement App Web — Bibliothèque Chart.js](https://github.com/japhetkoyakossoesso-eng/developpement_app_web_biblio_chart) *(2025–2026)*
-> Application web de visualisation de données d'inscriptions étudiantes à l'UT2J (L2 MIASHS) via la bibliothèque Chart.js. Graphiques en barres et en courbes, multi-séries hommes/femmes, intégration de l'API OpenData du ministère de l'Enseignement Supérieur. Page individuelle avec comparaisons originales de données.
->
-> **Stack :** JavaScript · HTML · CSS · Chart.js · REST API  
-> *Projet académique en groupe · UT2J*
-
----
-
-### 🎬 [Du Python au PHP](https://github.com/japhetkoyakossoesso-eng/Du_python_au_PHP) *(2026)*
-> Projet de transition et d'apprentissage : cinémathèque web avec requêtes SQL JOIN, filtre par genre, formulaires d'ajout/suppression de films — passage du développement Python vers PHP/MariaDB.
->
-> **Stack :** PHP · MariaDB · HTML · CSS
-
----
-
-### 🤖 [Initiation à l'Apprentissage Automatique & IA Générative](https://github.com/japhetkoyakossoesso-eng/Initiation_A_Lapprentissage_automatique) *(2025–2026)*
-> Projet académique pluridisciplinaire couvrant les fondements de l'intelligence artificielle moderne et symbolique.
->
-> - **Analyse comparative de LLMs** : étude approfondie de ChatGPT (OpenAI), DeepSeek et Le Chat (Mistral) — approches d'apprentissage, sources d'entraînement, localisation des serveurs, accessibilité du code source, modalités d'utilisation
-> - **IA symbolique avec Prolog** : implémentation d'une base de connaissances nutritionnelles (16 aliments, glucides/lipides/protides), requêtes logiques sur les laitages, protéines, composition de menus équilibrés et calcul de macronutriments
-> - **Benchmark de modèles** : évaluation comparative via Comparia (beta.gouv.fr) — analyse des licences, estimation des paramètres, impact énergétique, modèles frugaux (taille XS vs XL)
-> - **Modélisation des interactions Humain-Machine** : schémas d'architecture pour les échanges avec une IA générative vs un programme Prolog
->
-> **Stack :** Prolog · Python · IA générative (ChatGPT · DeepSeek · Mistral)  
-> *Projet académique · UE MI0C405T Introduction à l'IA · UT2J*
-
----
-
-### 🧾 [Excel Invoice Generator](https://github.com/japhetkoyakossoesso-eng/Projet_factures_excel.git) *(2026)*
-> Outil Python d'automatisation de génération de factures clients à partir de fichiers Excel. Scan de dossier, validation de structure `.xlsx`, extraction et agrégation des commandes par client, génération automatique de factures individuelles.
->
-> **Stack :** Python · openpyxl · os · datetime  
-> *Projet personnel · développé en solo*
-
----
-
-### 🚌 [Tisseo API Web App](https://github.com/japhetkoyakossoesso-eng/Projet_Qualit-_de_l_Air_En_Occitanie.git) *(2026)*
-> Application web JavaScript/AJAX interrogeant l'API OpenData Tisseo pour afficher lignes et arrêts de transport en commun de Toulouse, avec déduplication via `Set`.
->
-> **Stack :** JavaScript · HTML · CSS · AJAX · Chart.js · REST API
-
----
-
-### 🏠 [DomoHouse System](https://github.com/japhetkoyakossoesso-eng/Projet_ingSI_2.git)*(2026)*
-> Interface domotique Python/Tkinter avec thème clair/sombre, gestion de maisons et pièces, intégration Pillow pour le traitement d'images.
->
-> **Stack :** Python · Tkinter · Pillow  
-> *Projet groupe · UT2J*
-
----
-
-## 💼 Expérience professionnelle
+## 💼 Expérience
 
 | Période | Poste | Structure |
-|---------|-------|-----------|
-| Oct. 2025 – Déc. 2026 | 💻 **Stagiaire Développeur Web** | Web-atrio (ESN, Toulouse) — HTML/CSS/JS, SQL/MySQL, correction de bugs, travail avec un développeur senior |
+|---|---|---|
+| Oct. 2025 – déc. 2025 | 💻 **Stagiaire développeur web** | **Web-atrio** (ESN, Toulouse) — fonctionnalités front et back sur une application en production, requêtes SQL (MySQL), correction d'anomalies, revues de code avec un développeur senior |
+
+## 🎓 Formation & certifications
+
+| Période | Formation |
+|---|---|
+| 2024 – 2027 | **Licence MIASHS, parcours Informatique** — Université Toulouse Jean Jaurès · 2e sur 80 en L2 |
+| 2024 | **Baccalauréat scientifique**, mention Bien |
+| 2026 | 📜 **Développeur Python — Formation complète** (Udemy, 69,5 h) |
+| En cours | 📊 **Power BI** : Power Query, DAX, Power BI Service · préparation de la certification PL-300 |
 
 ---
 
@@ -219,21 +179,6 @@
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=japhetkoyakossoesso-eng&theme=dark&hide_border=true&ring=ffd700&fire=ffd700&currStreakLabel=ffd700&background=0a0f2c&currStreakNum=a8c4e8&sideLabels=a8c4e8&sideNums=a8c4e8&dates=a8c4e8)](https://git.io/streak-stats)
-
-</div>
-
-
-## 📫 Me contacter
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Gmail-japhetkoyakossoesso%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:japhetkoyakossoesso@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Japhet_KOYAKOSSO--ESSO-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/japhet-koyakosso-esso-974a33313)
-
-</div>
-
-
-<div align="center">
 
 ![Profile views](https://komarev.com/ghpvc/?username=japhetkoyakossoesso-eng&color=b8860b&style=flat&label=Visites+du+profil)
 
