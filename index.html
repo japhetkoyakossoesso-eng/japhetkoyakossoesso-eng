@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Japhet Koyakosso-Esso</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Portfolio de Japhet Koyakosso-Esso, étudiant en L3 MIASHS parcours Informatique : data, intelligence artificielle et développement.">
+<meta name="description" content="Portfolio de Japhet Koyakosso-Esso, étudiant en L3 MIASHS parcours Informatique et développeur full-stack : applications web, data et intelligence artificielle.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -82,7 +82,7 @@ section{padding-block:clamp(56px,9vw,104px)}
 .curseur{display:inline-block;width:.6em;height:1.1em;vertical-align:-.2em;background:var(--amber);animation:clignote 1s steps(1) infinite}
 @keyframes clignote{50%{opacity:0}}
 
-/* Projet phare */
+/* Méthode */
 .phare{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:26px;align-items:start}
 @media (max-width:900px){.phare{grid-template-columns:1fr}}
 .schema{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 10px 8px;min-width:0;
@@ -96,6 +96,18 @@ section{padding-block:clamp(56px,9vw,104px)}
 .zone:hover,.zone.active,.zone:focus-visible{fill:rgba(232,163,61,.22);stroke:var(--amber)}
 .zone.ligne-z:hover,.zone.ligne-z.active{stroke:rgba(232,163,61,.35)}
 .repere{stroke:#6F7C96;stroke-width:1.2}
+.etapes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:22px}
+@media (max-width:900px){.etapes{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.etapes{grid-template-columns:1fr}}
+.etape{font:600 1rem var(--body);color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px;text-align:left;cursor:pointer;transition:border-color .2s,background .2s}
+.etape span{display:block;font:500 .78rem var(--mono);color:var(--amber);margin-bottom:6px}
+.etape:hover,.etape:focus-visible{border-color:var(--amber);outline:none}
+.etape[aria-pressed="true"]{background:var(--amber-soft);border-color:var(--amber)}
+.citation .grande{font-family:var(--display);font-size:1.6rem;line-height:1.3;color:var(--text)}
+
+.archi-t{font:600 17px var(--body);fill:#EDEFF3;pointer-events:none}
+.archi-s{font:12.5px var(--mono);fill:#93A0B8;pointer-events:none}
+.zone.pointille{stroke-dasharray:7 5}
 .bulle{cursor:pointer;outline:none}
 .bulle circle{fill:var(--amber);stroke:#0B101A;stroke-width:2;transition:transform .2s}
 .bulle text{font-family:var(--body)}
@@ -185,13 +197,13 @@ footer{position:relative;z-index:1;color:var(--muted);font-size:.85rem;text-alig
   <div class="wrap">
     <a class="monogramme" href="#accueil"><span>JK</span>Japhet Koyakosso-Esso</a>
     <ul>
-      <li><a href="#certidoc">CertiDoc AI</a></li>
+      <li><a href="#methode">Méthode</a></li>
       <li><a href="#projets">Projets</a></li>
       <li><a href="#competences">Compétences</a></li>
       <li><a href="#parcours">Parcours</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <span class="dispo"><i></i>Stage dès février 2027</span>
+    <span class="dispo"><i></i>Stage dès janvier ou avril 2027</span>
   </div>
 </nav>
 
@@ -202,78 +214,48 @@ footer{position:relative;z-index:1;color:var(--muted);font-size:.85rem;text-alig
       <div>
         <p class="lieu">Toulouse · L3 MIASHS parcours Informatique</p>
         <h1>Bonjour, je suis <span class="nom">Japhet Koyakosso-Esso</span></h1>
-        <p class="metier"><b>Data</b> · <b>Intelligence artificielle</b> · <b>Développement</b></p>
-        <p class="accroche">Je pars de données brutes pour construire des outils utiles et fiables : bases de données, applications web, et assistants à base d'IA qui citent leurs sources.</p>
+        <p class="metier"><b>Développeur Full-Stack</b> · Data · Intelligence artificielle</p>
+        <p class="accroche">De la donnée brute au tableau de bord, du backend à l'interface, je construis des outils utiles et fiables : pipelines de données, bases et entrepôts SQL, applications web connectées à des API, automatisations, et assistants à base d'IA qui citent leurs sources.</p>
         <div class="actions">
-          <a class="bouton" href="#certidoc">Découvrir CertiDoc AI</a>
+          <a class="bouton" href="#methode">Ma façon de travailler</a>
           <a class="bouton ligne" href="#projets">Voir tous les projets</a>
           <a class="bouton ligne" href="#contact">Me contacter</a>
         </div>
       </div>
-      <div class="terminal" aria-label="Démonstration de CertiDoc AI dans un terminal">
-        <div class="barre"><i></i><i></i><i></i><span>certidoc — zsh</span><button type="button" id="rejouer">Rejouer</button></div>
+      <div class="terminal" aria-label="Présentation de Japhet dans un terminal">
+        <div class="barre"><i></i><i></i><i></i><span>japhet — zsh</span><button type="button" id="rejouer">Rejouer</button></div>
         <pre id="console" aria-live="off"></pre>
       </div>
     </header>
   </div>
 
-  <!-- Projet phare -->
-  <section id="certidoc">
+  <!-- Méthode -->
+  <section id="methode">
     <div class="wrap">
       <div class="titre-section">
-        <h2>Projet phare : CertiDoc AI</h2>
-        <p>Une base documentaire de certification d'hélicoptères que l'on interroge en langage naturel. Cliquez sur une zone de l'appareil pour voir ses consignes.</p>
+        <h2>Ma façon de travailler</h2>
+        <p>Cinq réflexes, du besoin à l'outil livré. Chacun est prouvé par un vrai projet : cliquez sur une étape.</p>
+      </div>
+      <div class="etapes" role="group" aria-label="Étapes de travail">
+        <button type="button" class="etape" data-zone="besoin" aria-pressed="false"><span>01</span>Comprendre le besoin</button>
+        <button type="button" class="etape" data-zone="donnees" aria-pressed="false"><span>02</span>Fiabiliser les données</button>
+        <button type="button" class="etape" data-zone="construire" aria-pressed="false"><span>03</span>Construire l'outil</button>
+        <button type="button" class="etape" data-zone="verifier" aria-pressed="false"><span>04</span>Vérifier</button>
+        <button type="button" class="etape" data-zone="transmettre" aria-pressed="false"><span>05</span>Expliquer et transmettre</button>
       </div>
       <div class="phare">
-        <figure class="schema" style="margin:0">
-          <svg viewBox="0 0 1000 470" role="img" aria-label="Schéma d'hélicoptère interactif : nombre de consignes de navigabilité par zone">
-            <rect class="zone" data-zone="rotor" x="90" y="67" width="640" height="7" rx="3.5" tabindex="0" role="button" aria-label="Rotor principal"/>
-            <circle class="trait" cx="402" cy="71" r="8"/>
-            <rect class="trait" x="397" y="79" width="10" height="29"/>
-            <rect class="zone" data-zone="commandes" x="384" y="108" width="36" height="10" rx="2" tabindex="0" role="button" aria-label="Commandes de vol rotor"/>
-            <path class="zone" data-zone="bgp" d="M345 152 C350 128 364 120 394 120 L445 120 L445 152 Z" tabindex="0" role="button" aria-label="Transmission rotor principal"/>
-            <path class="zone" data-zone="moteur" d="M445 120 L500 120 C526 122 541 136 548 153 L445 153 Z" tabindex="0" role="button" aria-label="Moteur"/>
-            <path class="trait" d="M120 262 C118 230 140 196 175 178 C210 160 260 152 330 152 L560 153 C590 155 605 170 610 196 L612 236 C560 262 470 278 330 284 L190 288 C150 288 122 280 120 262 Z"/>
-            <g class="zone" data-zone="vitrages" tabindex="0" role="button" aria-label="Fenêtres et pare-brise">
-              <path d="M178 178 C202 166 236 158 262 156 L262 212 L148 222 C150 205 160 190 178 178 Z"/>
-              <rect x="278" y="170" width="62" height="42" rx="6"/>
-            </g>
-            <rect class="zone" data-zone="portes" x="356" y="162" width="98" height="106" rx="4" tabindex="0" role="button" aria-label="Portes"/>
-            <rect class="fin" x="370" y="174" width="70" height="38" rx="5"/>
-            <rect class="zone" data-zone="cabine" x="470" y="214" width="118" height="46" rx="4" style="stroke-dasharray:6 4" tabindex="0" role="button" aria-label="Équipements de cabine"/>
-            <rect class="fin" x="470" y="168" width="58" height="36" rx="6"/>
-            <path class="trait" d="M604 182 L862 168 L862 181 L610 226"/>
-            <path class="trait" d="M846 171 L870 100 L890 100 L879 192 Z"/>
-            <rect class="trait" x="792" y="181" width="44" height="5" rx="2"/>
-            <line x1="560" y1="176" x2="872" y2="160" stroke="#6F7C96" stroke-width="1.4" stroke-dasharray="5 5"/>
-            <line class="zone ligne-z" data-zone="arbre" x1="560" y1="176" x2="866" y2="161" tabindex="0" role="button" aria-label="Transmission rotor de queue"/>
-            <circle class="zone" data-zone="rac" cx="884" cy="150" r="34" style="stroke-dasharray:4 4" tabindex="0" role="button" aria-label="Rotor de queue"/>
-            <circle cx="884" cy="150" r="4" fill="#C9D2E3"/>
-            <path class="trait" d="M250 286 L236 330 M520 272 L538 330 M168 330 L585 330 Q604 330 610 318"/>
-            <g id="reperes"></g>
-            <g id="bulles"></g>
-          </svg>
-          <figcaption>Données réelles : 39 consignes de navigabilité publiques (FAA, reprises de l'EASA) classées par chapitre ATA.</figcaption>
-        </figure>
         <aside class="volet" aria-live="polite">
-          <h3 id="z-titre">Choisissez une zone</h3>
-          <div class="compte" id="z-compte">39<small>consignes en base</small></div>
-          <div class="exemple" id="z-exemple"><span class="ad">Exemple de réponse</span>« Une perte de contrôle en lacet pourrait résulter du contact entre l'arbre de transmission arrière et son amortisseur [AD 2026-05-13]. »</div>
-          <p class="aide" id="z-aide">Chaque bulle compte les consignes qui touchent cette zone de l'appareil.</p>
-          <div class="faits"><span>39 consignes</span><span>11 familles d'hélicoptères</span><span>Interface FR / EN</span><span>IA 100 % locale</span></div>
+          <h3 id="z-titre">Comprendre le besoin</h3>
+          <div class="compte" id="z-compte">Qui ?<small>pour qui, pour quoi, avec quelles données</small></div>
+          <div class="exemple" id="z-exemple"></div>
+          <p class="aide" id="z-aide"></p>
+          <div class="faits" id="z-outils"></div>
         </aside>
-      </div>
-
-      <ol class="pipeline">
-        <li><b>Collecte</b><p>Téléchargement automatique des consignes via l'API du Federal Register.</p></li>
-        <li><b>Mapping</b><p>Extraction des métadonnées vers SQLite, classement ATA, contrôle qualité.</p></li>
-        <li><b>Indexation</b><p>Découpage en passages et embeddings multilingues dans Chroma.</p></li>
-        <li><b>Génération</b><p>Réponses et synthèses par un LLM local, chaque affirmation sourcée.</p></li>
-        <li><b>Interface</b><p>Application Flask bilingue : vue appareil, questions, synthèses, données.</p></li>
-      </ol>
-      <div class="lien-projet">
-        <a class="bouton" href="https://github.com/japhetkoyakossoesso-eng/certidocAI" target="_blank" rel="noopener">Voir le code sur GitHub</a>
-        <div class="pile" style="align-self:center"><span>Python</span><span>SQLite</span><span>LangChain</span><span>Chroma</span><span>Ollama</span><span>Flask</span></div>
+        <div class="volet citation">
+          <p class="grande">« Un outil n'est utile que s'il est fiable, compris et vraiment utilisé. »</p>
+          <p class="aide">C'est la règle que je me fixe sur chaque projet, du script d'automatisation à la plateforme de données.</p>
+          <div class="faits"><span>2e sur 80 en L2</span><span>1 stage en entreprise</span><span>Des dizaines de projets</span><span>Stage dès janvier ou avril 2027</span></div>
+        </div>
       </div>
     </div>
   </section>
@@ -308,13 +290,13 @@ footer{position:relative;z-index:1;color:var(--muted);font-size:.85rem;text-alig
         <div class="domaine"><h3><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><path d="M7 7l3 4M7 17l3-4M14 12h3"/></svg>Data &amp; IA</h3>
           <div class="puces"><span>Pandas</span><span>NumPy</span><span>scikit-learn</span><span>TensorFlow / LSTM</span><span>OpenCV</span><span>MediaPipe</span><span>Matplotlib</span><span>LangChain</span><span>RAG</span><span>Chroma</span><span>Hugging Face</span><span>Ollama</span><span>API LLM (OpenAI, Mistral, Anthropic)</span><span>Power BI</span></div></div>
         <div class="domaine"><h3><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg>Web &amp; applications</h3>
-          <div class="puces"><span>Django</span><span>Flask</span><span>Node.js</span><span>Bootstrap</span><span>Chart.js</span><span>API REST</span><span>Tkinter</span><span>Kivy</span><span>openpyxl</span></div></div>
+          <div class="puces"><span>Spring Boot</span><span>FastAPI</span><span>Vue.js</span><span>Laravel</span><span>Django</span><span>Flask</span><span>Node.js</span><span>Bootstrap</span><span>Chart.js</span><span>API REST</span><span>Tkinter</span><span>Kivy</span><span>openpyxl</span></div></div>
         <div class="domaine"><h3><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>Bases de données</h3>
-          <div class="puces"><span>PostgreSQL</span><span>MySQL</span><span>MariaDB</span><span>SQLite</span><span>Modélisation relationnelle</span></div></div>
+          <div class="puces"><span>PostgreSQL</span><span>PostGIS</span><span>pgvector</span><span>MySQL</span><span>MariaDB</span><span>SQLite</span><span>Modélisation relationnelle</span><span>Schéma en étoile</span><span>Flyway</span></div></div>
         <div class="domaine"><h3><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><path d="M10 6.5h4v11h0"/></svg>Génie logiciel</h3>
           <div class="puces"><span>UML</span><span>Programmation orientée objet</span><span>Tests unitaires</span><span>Tests fonctionnels</span><span>Revues de code</span><span>Cahier des charges</span><span>Gantt</span></div></div>
         <div class="domaine"><h3><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="9" r="2.5"/><path d="M6 8.5v7M8.5 6.5c5 0 7.5 0 7.5 2.5"/></svg>DevOps &amp; outils</h3>
-          <div class="puces"><span>Git</span><span>GitHub</span><span>GitLab</span><span>Docker</span><span>CI/CD</span><span>Linux</span><span>macOS</span><span>Vercel</span><span>PythonAnywhere</span><span>IntelliJ IDEA</span><span>Eclipse</span><span>PyCharm</span><span>VS Code</span><span>RStudio</span><span>Claude Code</span><span>GitHub Copilot</span><span>Windsurf</span></div></div>
+          <div class="puces"><span>Git</span><span>GitHub</span><span>GitLab</span><span>Docker</span><span>CI/CD</span><span>GitHub Actions</span><span>Linux</span><span>macOS</span><span>Vercel</span><span>PythonAnywhere</span><span>IntelliJ IDEA</span><span>Eclipse</span><span>PyCharm</span><span>VS Code</span><span>RStudio</span><span>Claude Code</span><span>GitHub Copilot</span><span>Windsurf</span></div></div>
       </div>
     </div>
   </section>
@@ -417,15 +399,22 @@ footer{position:relative;z-index:1;color:var(--muted);font-size:.85rem;text-alig
     document.getElementById("halo").style.setProperty("--y", e.clientY + "px");
   });
 
-  /* ---------- Terminal : démonstration de CertiDoc AI ---------- */
+  /* ---------- Terminal : démonstration de SafeTransport AI ---------- */
   const lignes = [
-    ['p', '$ '], ['t', 'python3 certidoc_ia.py "Qu\'est-ce qui pourrait entraîner une perte de contrôle en lacet ?"\n'],
-    ['m', '→ recherche dans 39 consignes de navigabilité…\n'],
-    ['ok', '✓ 5 passages retrouvés · modèle local llama3.1:8b\n\n'],
-    ['x', 'Une perte de contrôle en lacet pourrait résulter du contact entre l\'arbre de transmission arrière du rotor de queue et son amortisseur pendant un vol d\'essai '], ['c', '[AD 2026-05-13]'], ['x', '.\n\n'],
-    ['m', 'Consignes citées : 1 · Passages consultés : 5\n'],
-    ['p', '$ '], ['t', 'python3 certidoc_ia.py "Quelle est la vitesse maximale du H160 ?"\n'],
-    ['x', 'Je ne trouve aucune mention de cette information dans les consignes. Je préfère ne pas inventer de réponse.\n'],
+    ['p', '$ '], ['t', 'whoami\n'],
+    ['x', 'japhet : étudiant en L3 MIASHS Informatique, Toulouse\n\n'],
+    ['p', '$ '], ['t', 'cat profil.txt\n'],
+    ['m', 'classement   '], ['x', '2e sur 80 en L2\n'],
+    ['m', 'expérience   '], ['x', 'développeur web chez Web-atrio (2025)\n'],
+    ['m', 'langages     '], ['x', 'Python · Java · JavaScript · SQL · PHP · R\n'],
+    ['m', 'domaines     '], ['x', 'données · full-stack · IA\n\n'],
+    ['p', '$ '], ['t', 'cat disponibilite.txt\n'],
+    ['ok', '✓ stage de fin de licence dès janvier ou avril 2027\n'],
+    ['ok', '✓ puis master en alternance\n\n'],
+    ['p', '$ '], ['t', 'ls projets/\n'],
+    ['c', 'SafeTransportIA  certidocAI  AI_Career_Coach  Signum_HandSpeak\n'],
+    ['c', 'ma_semaine_verte  DreamPark  Pizza_Django  Excel_Invoice_Generator\n'],
+    ['m', '… et bien d\'autres sur GitHub\n'],
     ['p', '$ ']
   ];
   const pre = document.getElementById("console");
@@ -454,51 +443,31 @@ footer{position:relative;z-index:1;color:var(--muted);font-size:.85rem;text-alig
   document.getElementById("rejouer").addEventListener("click", jouer);
   jouer();
 
-  /* ---------- Schéma interactif ---------- */
+  /* ---------- Méthode interactive ---------- */
   const ZONES = {
-    rotor:    {lib:"Rotor|principal", n:3, a:[235,71], b:[90,36], ad:"AD 2026-05-04", ex:"Tête de rotor principal portant le même numéro de série qu'une autre, après une modification mal documentée (BK117)."},
-    commandes:{lib:"Commandes|de vol rotor", n:1, a:[402,114], b:[330,36]},
-    bgp:      {lib:"Transmission|rotor principal", n:5, a:[392,138], b:[560,36], ad:"AD 2026-16-01", ex:"Bride moteur mal installée sur l'accouplement de la boîte de transmission principale (H125)."},
-    moteur:   {lib:"Moteur", n:1, a:[495,138], b:[790,36], ad:"AD 2026-05-09", ex:"Durite du système de drainage rompue par une fuite d'air chaud dans la soute arrière (AS355)."},
-    vitrages: {lib:"Fenêtres|et pare-brise", n:3, a:[212,196], b:[110,400], ad:"AD 2026-12-12", ex:"Écrous autobloquants du système de largage des fenêtres desserrables à la main (H160)."},
-    portes:   {lib:"Portes", n:1, a:[405,215], b:[295,400]},
-    cabine:   {lib:"Équipements|de cabine", n:7, a:[530,238], b:[490,400], ad:"AD 2026-07-09", ex:"Fuite d'une bouteille de gaz du système de radeau de survie (H160)."},
-    arbre:    {lib:"Transmission|rotor de queue", n:5, a:[722,175], b:[690,400], ad:"AD 2026-05-13", ex:"Arbre de transmission arrière en contact avec son amortisseur pendant un vol d'essai (H160)."},
-    rac:      {lib:"Rotor|de queue", n:2, a:[884,150], b:[885,400], ad:"AD 2026-05-06", ex:"Fissures de fatigue sur les bras du croisillon de changement de pas (AS332, SA330)."}
+    besoin:{t:"Comprendre le besoin", n:"Qui ?", u:"pour qui, pour quoi, avec quelles données", ad:"AI Career Coach · CertiDoc AI", ex:"Avant d'écrire du code, j'écoute les utilisateurs : recueil des besoins, cahier des charges et comparaison des solutions existantes dans l'AI Career Coach ; cadrage du besoin avant de construire CertiDoc AI.", o:["Entretiens","Cahier des charges","UML","Gantt"]},
+    donnees:{t:"Fiabiliser les données", n:"0", u:"doublon après un nouvel import", ad:"SafeTransport AI · Web-atrio", ex:"Des règles de qualité, un dédoublonnage et des imports que l'on peut rejouer sans rien casser dans SafeTransport AI ; le contrôle de la cohérence des données sur une base en production chez Web-atrio.", o:["Python","Pandas","SQL","PostgreSQL"]},
+    construire:{t:"Construire l'outil", n:"7", u:"langages pratiqués en projet", ad:"Web, back-end, automatisation", ex:"Une API Spring Boot et une interface Vue.js, des applications Django et PHP, un générateur de factures qui remplace des heures de travail manuel sur Excel : je choisis l'outil selon le besoin.", o:["Java","Python","JavaScript","PHP","SQL","R","Go"]},
+    verifier:{t:"Vérifier", n:"29", u:"tests SQL sur une seule base", ad:"SafeTransport AI · RepasPromo · AI Career Coach", ex:"Des tests sur la base de données et une intégration continue, des tests unitaires de la logique métier, et des tests qui mesurent les hallucinations d'un modèle de langage : je ne livre rien sans l'avoir vérifié.", o:["Tests unitaires","JUnit","GitHub Actions","Docker"]},
+    transmettre:{t:"Expliquer et transmettre", n:"18,83", u:"sur 20, rapport et soutenance", ad:"Qualité de l'air · Ma Semaine Verte", ex:"Documentation, rapports RMarkdown, tableaux de bord et restitutions orales. Chef de projet d'une équipe de cinq sur Ma Semaine Verte, j'ai appris à faire avancer un groupe et à rendre un résultat clair.", o:["Documentation","RMarkdown","Chart.js","Power BI"]}
   };
-  const NS = "http://www.w3.org/2000/svg", gR = document.getElementById("reperes"), gB = document.getElementById("bulles");
-  const el = (n, at) => { const e = document.createElementNS(NS, n); for (const k in at) e.setAttribute(k, at[k]); return e; };
-  for (const [cle, z] of Object.entries(ZONES)){
-    gR.appendChild(el("line", {class:"repere", x1:z.a[0], y1:z.a[1], x2:z.b[0], y2:z.b[1]}));
-    gR.appendChild(el("circle", {cx:z.a[0], cy:z.a[1], r:3, fill:"#C9D2E3"}));
-    const g = el("g", {class:"bulle", "data-zone":cle, tabindex:0, role:"button", "aria-label":`${z.lib.replace("|"," ")} : ${z.n} consigne${z.n>1?"s":""}`});
-    g.appendChild(el("circle", {cx:z.b[0], cy:z.b[1], r:23}));
-    const t = el("text", {class:"n", x:z.b[0], y:z.b[1]}); t.textContent = z.n; g.appendChild(t);
-    z.lib.split("|").forEach((l, i, arr) => {
-      const haut = z.b[1] < 200;
-      const tx = el("text", haut ? {class:"lib", x:z.b[0]+32, y: arr.length === 1 ? z.b[1]+5 : z.b[1]-4+i*16} : {class:"lib", x:z.b[0], y:z.b[1]+42+i*16, "text-anchor":"middle"});
-      tx.textContent = l; g.appendChild(tx);
-    });
-    gB.appendChild(g);
-  }
   function choisir(cle){
     const z = ZONES[cle]; if (!z) return;
-    document.querySelectorAll("[data-zone]").forEach(e => e.classList.toggle("active", e.dataset.zone === cle));
-    document.getElementById("z-titre").textContent = z.lib.replace("|", " ");
-    document.getElementById("z-compte").innerHTML = `${z.n}<small>consigne${z.n>1?"s":""}</small>`;
-    const ex = document.getElementById("z-exemple");
-    if (z.ex){ ex.hidden = false; ex.innerHTML = `<span class="ad">${z.ad}</span>${z.ex}`; } else { ex.hidden = true; }
-    document.getElementById("z-aide").textContent = z.ex ? "Exemple tiré d'une consigne réelle de cette zone." : "Le détail de cette consigne est consultable dans l'application.";
+    document.querySelectorAll("[data-zone]").forEach(e => e.setAttribute("aria-pressed", String(e.dataset.zone === cle)));
+    document.getElementById("z-titre").textContent = z.t;
+    document.getElementById("z-compte").innerHTML = `${z.n}<small>${z.u}</small>`;
+    document.getElementById("z-exemple").innerHTML = `<span class="ad">${z.ad}</span>${z.ex}`;
+    document.getElementById("z-aide").textContent = "La preuve est dans les projets ci-dessous.";
+    document.getElementById("z-outils").innerHTML = z.o.map(x => `<span>${x}</span>`).join("");
   }
-  document.querySelectorAll("[data-zone]").forEach(e => {
-    e.addEventListener("click", () => choisir(e.dataset.zone));
-    e.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); choisir(e.dataset.zone); } });
-  });
+  document.querySelectorAll("[data-zone]").forEach(e => e.addEventListener("click", () => choisir(e.dataset.zone)));
+  choisir("besoin");
 
   /* ---------- Projets filtrables ---------- */
   const GH = "https://github.com/japhetkoyakossoesso-eng/";
   const PROJETS = [
-    {t:"CertiDoc AI", y:"2026", c:"ia", v:true, d:"Base documentaire de certification d'hélicoptères interrogeable par IA : mapping SQL, RAG, synthèses par appareil et par pièce, sources citées, interface bilingue.", s:["Python","LangChain","Chroma","Ollama","Flask"], l:GH+"certidocAI"},
+    {t:"SafeTransport AI", y:"2026 – 2027", c:"ia", v:true, d:"Plateforme d'analyse de la sécurité des transports : flux ETL Python des données d'accidents (ONISR, NTSB) avec dédoublonnage et règles de qualité, base PostgreSQL versionnée (27 tables, 29 tests) avec un schéma décisionnel en étoile, API Spring Boot, interface Vue.js. Taux 2023 conformes aux chiffres officiels.", s:["Python","Java","SQL","JavaScript","PHP","R","Spring Boot","FastAPI","Vue.js","Laravel","Node.js","PostgreSQL","Power BI","Docker"], l:GH+"SafeTransportIA"},
+    {t:"CertiDoc AI", y:"2026", c:"ia", d:"Base documentaire de certification d'hélicoptères interrogeable par IA : mapping SQL, RAG, synthèses par appareil et par pièce, sources citées, interface bilingue.", s:["Python","LangChain","Chroma","Ollama","Flask"], l:GH+"certidocAI"},
     {t:"AI Career Coach", y:"2026 – 2027", c:"ia", d:"Projet tutoré en équipe : accompagnement à la recherche d'emploi par IA générative, analyse de CV et d'offres, pseudonymisation et tests automatisés.", s:["Python","LLM","Docker","Git"]},
     {t:"Signum HandSpeak", y:"2026", c:"ia", d:"Traduction de la langue des signes française en temps réel : 5 200 échantillons, Random Forest à 100 % de précision, LSTM pour les gestes dynamiques, synthèse vocale.", s:["OpenCV","MediaPipe","scikit-learn","TensorFlow"], l:GH+"Projet_Signum_HandSpeak_"},
     {t:"Student Grade Prediction", y:"2026", c:"ia", d:"Pipeline de machine learning complet : dataset synthétique, analyse exploratoire, Random Forest et régression logistique, rapport RMarkdown.", s:["scikit-learn","Pandas","R"], l:GH+"projet_prediction_notes_avec_machine_learning"},
@@ -508,10 +477,13 @@ footer{position:relative;z-index:1;color:var(--muted);font-size:.85rem;text-alig
     {t:"Pizza Django", y:"2026", c:"web", d:"Application web de gestion d'une pizzeria en architecture MVT, déployée sur PythonAnywhere.", s:["Python","Django"], l:GH+"Pizza_Django"},
     {t:"Du Python au PHP", y:"2026", c:"web", d:"Cinémathèque web : requêtes SQL avec jointures, filtres par genre, ajout et suppression de films.", s:["PHP","MariaDB"], l:GH+"Du_python_au_PHP"},
     {t:"Visualisation Chart.js", y:"2025 – 2026", c:"web", d:"Tableaux de bord des inscriptions étudiantes à partir de l'API OpenData de l'Enseignement supérieur.", s:["JavaScript","Chart.js","API REST"], l:GH+"developpement_app_web_biblio_chart"},
+    {t:"Ma Semaine Verte", y:"2025 – 2026", c:"web", d:"Chef de projet d'une équipe de 5 : application qui calcule l'empreinte carbone d'un étudiant avec l'API Impact CO2 de l'ADEME, résultats en graphiques.", s:["JavaScript","API REST","Chart.js","GitLab"], l:GH+"ma_semaine_verte"},
     {t:"Tisséo API Web App", y:"2026", c:"web", d:"Application JavaScript qui interroge l'API OpenData Tisséo pour afficher les lignes et arrêts de Toulouse.", s:["JavaScript","AJAX","API REST"]},
     {t:"Excel Invoice Generator", y:"2026", c:"app", d:"Automatisation de la facturation : contrôle de la structure des fichiers Excel, agrégation par client, génération des factures.", s:["Python","openpyxl"], l:GH+"Projet_factures_excel"},
-    {t:"Repas de groupe", y:"2025 – 2026", c:"app", d:"Application de saisie et de suivi des contributions d'un repas de promotion, conçue en UML.", s:["Python","Tkinter","UML"], l:GH+"Projet_ingSI_2"},
+    {t:"Repas de groupe", y:"2025 – 2026", c:"app", d:"Application de suivi des contributions d'un repas de promotion, en équipe de 3 : architecture en couches (contrôleurs, services, repository), base SQLite et tests unitaires.", s:["Python","Tkinter","SQLite","Tests unitaires","UML"], l:GH+"Projet_ingSI_2"},
     {t:"DomoHouse System", y:"2026", c:"app", d:"Interface domotique : gestion de maisons et de pièces, thème clair ou sombre, traitement d'images.", s:["Python","Tkinter","Pillow"], l:GH+"Projet_ingSI_2"},
+    {t:"DreamPark", y:"2025 – 2026", c:"app", d:"Système de gestion de parking : stationnement, récupération des véhicules, abonnements, statistiques et interface graphique.", s:["Python","POO","Interface graphique"], l:GH+"Projet_parking"},
+    {t:"Lab Kivy", y:"2026", c:"app", d:"Expérimentations du framework Kivy pour créer des interfaces graphiques mobiles et desktop en Python.", s:["Python","Kivy","kvlang"], l:GH+"projet_kivy_lelab"},
     {t:"Projet Galaxy", y:"2026", c:"app", d:"Jeu arcade en pseudo-3D : perspective, difficulté progressive, power-ups, meilleur score sauvegardé.", s:["Python","Kivy"], l:GH+"Projet_galaxy"}
   ];
   const grille = document.getElementById("grille");

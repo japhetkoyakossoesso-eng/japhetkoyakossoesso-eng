@@ -29,12 +29,13 @@
   <rect width="1000" height="250" rx="14" fill="url(#grille)"/>
 
   <!-- Barre dorée verticale -->
-  <rect x="64" y="58" width="4" height="134" rx="2" fill="url(#gold)"/>
+  <rect x="64" y="48" width="4" height="158" rx="2" fill="url(#gold)"/>
 
   <!-- Identité -->
-  <text x="92" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="bold" letter-spacing="1.5" fill="url(#gold)">Japhet KOYAKOSSO-ESSO</text>
-  <text x="94" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="0.8" fill="#a8c4e8">L3 MIASHS parcours Informatique · Université Toulouse Jean Jaurès</text>
-  <text x="94" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#ffd700">Data · Intelligence artificielle · Développement</text>
+  <text x="92" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="bold" letter-spacing="1.5" fill="url(#gold)">Japhet KOYAKOSSO-ESSO</text>
+  <text x="94" y="126" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="0.8" fill="#a8c4e8">L3 MIASHS parcours Informatique · Université Toulouse Jean Jaurès</text>
+  <text x="94" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#ffd700">Data · Développement full-stack · Intelligence artificielle</text>
+  <text x="94" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="0.4" fill="#e8eef8">Stage de fin d'études dès janvier ou avril 2027 · puis master en alternance</text>
 
   <!-- Réseau de neurones : des données vers l'IA -->
   <g class="reseau"><line x1="690" y1="62" x2="790" y2="48"/><line x1="690" y1="62" x2="790" y2="86"/><line x1="690" y1="62" x2="790" y2="124"/><line x1="690" y1="62" x2="790" y2="162"/><line x1="690" y1="62" x2="790" y2="200"/><line x1="690" y1="104" x2="790" y2="48"/><line x1="690" y1="104" x2="790" y2="86"/><line x1="690" y1="104" x2="790" y2="124"/><line x1="690" y1="104" x2="790" y2="162"/><line x1="690" y1="104" x2="790" y2="200"/><line x1="690" y1="146" x2="790" y2="48"/><line x1="690" y1="146" x2="790" y2="86"/><line x1="690" y1="146" x2="790" y2="124"/><line x1="690" y1="146" x2="790" y2="162"/><line x1="690" y1="146" x2="790" y2="200"/><line x1="690" y1="188" x2="790" y2="48"/><line x1="690" y1="188" x2="790" y2="86"/><line x1="690" y1="188" x2="790" y2="124"/><line x1="690" y1="188" x2="790" y2="162"/><line x1="690" y1="188" x2="790" y2="200"/><line x1="790" y1="48" x2="890" y2="96"/><line x1="790" y1="48" x2="890" y2="152"/><line x1="790" y1="86" x2="890" y2="96"/><line x1="790" y1="86" x2="890" y2="152"/><line x1="790" y1="124" x2="890" y2="96"/><line x1="790" y1="124" x2="890" y2="152"/><line x1="790" y1="162" x2="890" y2="96"/><line x1="790" y1="162" x2="890" y2="152"/><line x1="790" y1="200" x2="890" y2="96"/><line x1="790" y1="200" x2="890" y2="152"/></g>
