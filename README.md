@@ -1,31 +1,64 @@
 <div align="center">
-  <img src="./banner.svg" alt="Japhet KOYAKOSSO-ESSO — L3 MIASHS Informatique · Data, développement full-stack et IA" width="100%"/>
+  <img src="./banner.svg" alt="Japhet KOYAKOSSO-ESSO — L3 MIASHS Informatique · Data, développement full-stack et IA · stage dès janvier ou avril 2027" width="100%"/>
 </div>
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-japhetkoyakossoesso--eng.github.io-ffd700?style=flat&logo=githubpages&logoColor=black)](https://japhetkoyakossoesso-eng.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Japhet_KOYAKOSSO--ESSO-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/japhet-koyakosso-esso-974a33313)
-[![Gmail](https://img.shields.io/badge/Gmail-japhetkoyakossoesso%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:japhetkoyakossoesso@gmail.com)
-[![Disponibilité](https://img.shields.io/badge/Stage-dès_janvier_ou_avril_2027-2ea44f?style=flat)](https://japhetkoyakossoesso-eng.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-japhetkoyakossoesso--eng.github.io-ffd700?style=for-the-badge&logo=githubpages&logoColor=black)](https://japhetkoyakossoesso-eng.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Japhet_KOYAKOSSO--ESSO-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/japhet-koyakosso-esso-974a33313)
+[![Gmail](https://img.shields.io/badge/Écrire-japhetkoyakossoesso%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:japhetkoyakossoesso@gmail.com)
 
+![Disponibilité](https://img.shields.io/badge/Stage_de_fin_d'études-dès_janvier_ou_avril_2027-2ea44f?style=flat-square)
+![Durée](https://img.shields.io/badge/Durée-3_à_6_mois-2ea44f?style=flat-square)
+![Ensuite](https://img.shields.io/badge/Ensuite-master_en_alternance-0A66C2?style=flat-square)
+![Mobilité](https://img.shields.io/badge/Basé_à-Toulouse-6D4C9F?style=flat-square)
+![Visites](https://komarev.com/ghpvc/?username=japhetkoyakossoesso-eng&color=b8860b&style=flat-square&label=visites)
+
+</div>
+
+<div align="center">
+  <img src="./assets/terminal.svg" alt="Terminal : whoami, profil, projets et contact de Japhet" width="100%"/>
 </div>
 
 ## 🧭 Mon parcours
 
-C'est au lycée, entre les **mathématiques** et la **NSI**, que j'ai écrit mes premières lignes de code. J'ai ensuite choisi la **licence MIASHS** à Toulouse pour réunir ce qui m'attire : l'informatique, les mathématiques et l'humain derrière les données. J'ai terminé ma L2 **2e sur 80**.
+C'est au lycée, entre les **mathématiques** et la **NSI**, que j'ai écrit mes premières lignes de code. J'ai ensuite choisi la **licence MIASHS** à Toulouse pour réunir ce qui m'attire : l'informatique, les mathématiques et l'humain derrière les données. Aujourd'hui, je construis des outils complets, **de la donnée brute jusqu'à l'interface**, et je vérifie chaque chiffre avant de le montrer.
 
-À l'université, j'apprends à **construire** : des bases de données, des applications web, des outils qui remplacent des tâches répétitives. Fin 2025, je fais mes premiers pas en entreprise chez **Web-atrio** : du code en production, des revues de code avec un développeur senior, de vraies contraintes.
+```mermaid
+timeline
+    2024 : Bac scientifique, mention Bien
+         : Entrée en licence MIASHS, parcours Informatique
+    2025 : Stage de développeur web chez Web-atrio
+         : Code en production, revues de code, SQL
+    2026 : 2e sur 80 en L2
+         : SafeTransport AI, CertiDoc AI, AI Career Coach
+    2027 : Stage de fin d'études (janvier ou avril)
+         : Master en alternance, data, IA, développement
+```
 
-En 2026, je passe à des projets plus ambitieux : de l'**intelligence artificielle** (langue des signes, prédiction de résultats, recherche documentaire par IA) et des **plateformes complètes**, de la base de données jusqu'à l'interface, comme **SafeTransport AI**. Mon fil conducteur ne change pas : **partir de données brutes pour en faire un outil utile et fiable.**
+## ⚡ En ce moment
 
-**Prochaine étape :** un **stage de fin d'études de 3 à 6 mois, dès janvier ou avril 2027**, pour valider ma licence, puis un **master en alternance** en data, IA ou développement.
+- 🚦 **SafeTransport AI** : je termine le premier jalon, avec le rapport **Power BI** branché sur le schéma en étoile (mesures DAX, totaux contrôlés par rapport à l'API)
+- 🎯 **AI Career Coach** : projet tutoré de L3 en équipe, IA générative au service de la recherche d'emploi
+- 🌿 **R Shiny** : application interactive pour explorer la qualité de l'air en Occitanie
+- 📊 **Certification PL-300** (Power BI) en préparation
+- 🔎 **Je cherche** un stage de fin d'études de 3 à 6 mois, **dès janvier ou avril 2027**, pour valider ma licence, puis une **alternance** pour mon master
 
----
+## 📈 En chiffres
+
+<div align="center">
+  <img src="./assets/chiffres.svg" alt="2e sur 80 en L2 · 18,83/20 en qualité de l'air · 27 tables PostgreSQL · 29 tests SQL en intégration continue · taux 2023 de 5,24 tués par milliard de véhicules-km, pour une référence ONISR de 5,2" width="100%"/>
+</div>
 
 ## 🔁 Ma façon de travailler
 
-Pas de projet unique pour me résumer : une méthode que je retrouve dans chacun d'eux.
+<div align="center">
+  <img src="./assets/methode.svg" alt="Cinq étapes : comprendre le besoin, fiabiliser les données, construire l'outil, vérifier, expliquer et transmettre" width="100%"/>
+</div>
+
+<details>
+<summary><b>Le détail, étape par étape</b></summary>
+<br>
 
 | Étape | Ce que je fais | Où je l'ai fait |
 |---|---|---|
@@ -35,9 +68,40 @@ Pas de projet unique pour me résumer : une méthode que je retrouve dans chacun
 | **4. Vérifier** | Tests de la base de données, tests unitaires, intégration continue : rien n'est livré sans être vérifié | 29 tests SQL sur SafeTransport AI · Repas de groupe |
 | **5. Expliquer et transmettre** | Documentation, rapports, tableaux de bord, soutenances | Qualité de l'air (**18,83/20**) · chef de projet sur Ma Semaine Verte |
 
+</details>
+
 ---
 
-## 🛠️ Compétences
+## 🛠️ Ma stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,java,js,postgres,r,php,go,rust,html,css,bash,powershell&theme=dark" alt="Python, Java, JavaScript, PostgreSQL, R, PHP, Go, Rust, HTML, CSS, Bash, PowerShell"/>
+<br>
+<img src="https://skillicons.dev/icons?i=spring,fastapi,laravel,django,flask,nodejs,vue,vite,bootstrap,figma,sklearn,tensorflow&theme=dark" alt="Spring Boot, FastAPI, Laravel, Django, Flask, Node.js, Vue.js, Vite, Bootstrap, Figma, scikit-learn, TensorFlow"/>
+<br>
+<img src="https://skillicons.dev/icons?i=opencv,mysql,sqlite,docker,git,github,gitlab,githubactions,linux,apple,vercel,vscode&theme=dark" alt="OpenCV, MySQL, SQLite, Docker, Git, GitHub, GitLab, GitHub Actions, Linux, macOS, Vercel, VS Code"/>
+
+<br><br>
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Power_Query-F2C811?style=flat)
+![R Shiny](https://img.shields.io/badge/R_Shiny-276DC3?style=flat&logo=rstudioide&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=flat&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat&logo=flyway&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat&logo=junit5&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+
+</div>
+
+<details>
+<summary><b>Voir toutes mes compétences, par domaine</b></summary>
+<br>
 
 **Langages**
 
@@ -143,6 +207,8 @@ Pas de projet unique pour me résumer : une méthode que je retrouve dans chacun
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=githubcopilot&logoColor=white)
 ![Windsurf](https://img.shields.io/badge/Windsurf-0B100F?style=flat)
 
+</details>
+
 ---
 
 ## 🚀 Projets
@@ -160,6 +226,40 @@ Pas de projet unique pour me résumer : une méthode que je retrouve dans chacun
 | 📊 [**Student Grade Prediction**](https://github.com/japhetkoyakossoesso-eng/projet_prediction_notes_avec_machine_learning) *(2026)* | Pipeline ML complet : dataset synthétique, EDA (8 visualisations), Random Forest et régression logistique, interprétabilité, rapport RMarkdown | Python · scikit-learn · Pandas · R |
 | 🌿 **Qualité de l'air en Occitanie** 🔒 *(2025 – 2026)* | Pipeline ETL, base normalisée (5 tables liées par code INSEE), 15 requêtes SQL sur 5 problématiques, rapport RMarkdown et application R Shiny · **noté 18,83/20** | Python · SQL · PostgreSQL · SQLite · R · Shiny |
 | 🧠 **Initiation à l'IA** 🔒 *(2025 – 2026)* | Analyse comparative de LLM (ChatGPT, DeepSeek, Mistral), base de connaissances en Prolog, benchmark de modèles (impact énergétique, modèles frugaux) | Prolog · Python · IA générative |
+
+<details>
+<summary><b>🔍 Sous le capot de SafeTransport AI : l'architecture</b></summary>
+<br>
+
+```mermaid
+flowchart LR
+    subgraph Sources ouvertes
+        BAAC[ONISR / BAAC<br/>accidents de la route]
+        NTSB[NTSB<br/>aviation]
+    end
+    subgraph Services
+        AI[ai · Python 3.12 · FastAPI<br/>ETL, ML, RAG]
+        API[api · Java 21 · Spring Boot<br/>API métier REST]
+        ADMIN[admin · PHP 8.3 · Laravel<br/>back-office]
+        NOTIF[notifications · Node.js 22<br/>alertes et relances]
+    end
+    DB[(PostgreSQL 16<br/>PostGIS · pgvector<br/>Flyway V1 à V5 · 29 tests)]
+    WEB[web · Vue 3 + Vite<br/>interface utilisateurs]
+    BI[Power BI · R / SQL<br/>schéma en étoile bi]
+
+    BAAC --> AI
+    NTSB --> AI
+    AI --> DB
+    API --> DB
+    ADMIN --> DB
+    WEB -->|/api| API
+    WEB -->|/ai| AI
+    DB --> BI
+```
+
+Chaque service se connecte à la base avec son propre compte et des droits minimaux, le schéma n'appartient qu'à Flyway, et la CI GitHub Actions rejoue les migrations et les tests à chaque push.
+
+</details>
 
 ### 🌐 Web
 
@@ -204,26 +304,31 @@ Pas de projet unique pour me résumer : une méthode que je retrouve dans chacun
 
 ---
 
-## 📫 Me contacter
+## 🐍 Mon activité sur GitHub
 
 <div align="center">
 
-**Stage de fin d'études de 3 à 6 mois, dès janvier ou avril 2027**, puis alternance en master.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/japhetkoyakossoesso-eng/japhetkoyakossoesso-eng/output/serpent-sombre.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/japhetkoyakossoesso-eng/japhetkoyakossoesso-eng/output/serpent-clair.svg"/>
+  <img alt="Serpent qui mange mon calendrier de contributions GitHub" src="https://raw.githubusercontent.com/japhetkoyakossoesso-eng/japhetkoyakossoesso-eng/output/serpent-sombre.svg"/>
+</picture>
 
-[🌐 Portfolio](https://japhetkoyakossoesso-eng.github.io) · [💼 LinkedIn](https://www.linkedin.com/in/japhet-koyakosso-esso-974a33313) · [✉️ japhetkoyakossoesso@gmail.com](mailto:japhetkoyakossoesso@gmail.com)
+[![GitHub Streak](https://streak-stats.demolab.com?user=japhetkoyakossoesso-eng&theme=dark&hide_border=true&ring=ffd700&fire=ffd700&currStreakLabel=ffd700&background=0a0f2c&currStreakNum=a8c4e8&sideLabels=a8c4e8&sideNums=a8c4e8&dates=a8c4e8&locale=fr)](https://git.io/streak-stats)
 
 </div>
 
----
-
-## 📊 GitHub Stats
+## 📫 Travaillons ensemble
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=japhetkoyakossoesso-eng&theme=dark&hide_border=true&ring=ffd700&fire=ffd700&currStreakLabel=ffd700&background=0a0f2c&currStreakNum=a8c4e8&sideLabels=a8c4e8&sideNums=a8c4e8&dates=a8c4e8)](https://git.io/streak-stats)
+**Vous cherchez un stagiaire rigoureux pour 3 à 6 mois, dès janvier ou avril 2027 ?**<br>
+Data, développement full-stack ou IA : je serais ravi d'en parler.
 
-![Profile views](https://komarev.com/ghpvc/?username=japhetkoyakossoesso-eng&color=b8860b&style=flat&label=Visites+du+profil)
-
-*« Code · Apprends · Compétis · Recommence »*
+[![Portfolio](https://img.shields.io/badge/🌐_Voir_mon_portfolio-ffd700?style=for-the-badge)](https://japhetkoyakossoesso-eng.github.io)
+[![LinkedIn](https://img.shields.io/badge/💼_Me_contacter_sur_LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/japhet-koyakosso-esso-974a33313)
+[![Email](https://img.shields.io/badge/✉️_M'écrire-EA4335?style=for-the-badge)](mailto:japhetkoyakossoesso@gmail.com)
 
 </div>
+
+<img src="./assets/footer.svg" alt="Code · Apprends · Compétis · Recommence" width="100%"/>
